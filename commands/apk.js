@@ -23,16 +23,16 @@ let result = await download(text)
             url: icon,
         }, 
         caption: `
-        \n ✧ *DARK SHAN MD  DOWNLOADER*
+        \n || *SUMANAPALA-MD APK DOWNLOADER* ||
         \n━━━━━━━━━━━━━━━━━━
         
-        \n 📚 *ᴀᴘᴘ ɴᴀᴍᴇ:* ${getname}
+        \n *👝 𝙰𝙿𝙿 𝙽𝙰𝙼𝙴 :*\n${getname}
         
-        \n ⬆️ *ʟᴀꜱᴛ ᴜᴘᴅᴀᴛᴇ:* ${lastupdate}
+        \n *🎗 𝙻𝙰𝚂𝚃 𝚄𝙿𝙳𝙰𝚃𝙴 :*\n${lastupdate}
         
-        \n 💻 *ᴘᴀᴄᴋᴀɢᴇ ɴᴀᴍᴇ:* ${packagename}
+        \n *💳 𝙿𝙰𝙲𝙺𝙰𝙶𝙴 𝙽𝙰𝙼𝙴 :*\n${packagename}
         
-        \n 📊 *ꜰɪʟᴇ ꜱɪᴢᴇ:* ${size}`,
+        \n *🛡️ 𝙵𝙸𝙻𝙴 𝚂𝙸𝚉𝙴 :*\n${size}`,
     })
     return Void.sendMessage(citel.chat, { 
         document: {
@@ -40,7 +40,7 @@ let result = await download(text)
         },
         mimetype: "application/vnd.android.package-archive",
         fileName: getname,
-        caption: `👑 *DARKSHAN-MD V1*`,
+        caption: `*• ꜱᴜᴍᴀɴᴀᴘᴀʟᴀ-ᴍᴅ •*`,
     }, {
         quoted: citel,
     });
@@ -50,4 +50,3 @@ let result = await download(text)
   }
 })
   //---------------------------------------------------------------------------
-
